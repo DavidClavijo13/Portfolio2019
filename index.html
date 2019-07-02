@@ -9,12 +9,13 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
   <script src="https://kit.fontawesome.com/21d6567733.js"></script>
+  <link rel="stylesheet" href="./index.css" />
 </head>
 
 <body>
   <header>
     <div class="jumbotron text-center">
-      <h1 class="display-4">David Clavijo's Software Developer Portfolio</h1>
+      <h1 class="display-4">David Clavijo's Developer Portfolio</h1>
       <hr class="my-4" />
       <p>
         Please use the links below to find out more about my skillset or to contact me.
@@ -31,11 +32,31 @@
       <a class="btn btn-primary btn-lg"
         href="https://drive.google.com/file/d/18I6QKMpIQ9fUBJd74i_5gXRNQV7uQRA3/view?usp=sharing" target="_blank"
         role="button">
-        <i class="far fa-file fa-lg"></i>
+        <i class="far fa-file "></i>
         Resume
       </a>
     </div>
   </header>
+  <div id="list-example" class="list-group">
+    <a class="list-group-item list-group-item-action bt" href="#list-item-1">Business Card Organizer</a>
+    <a class="list-group-item list-group-item-action" href="#list-item-2">Noise Controller</a>
+    <a class="list-group-item list-group-item-action" href="#list-item-3">Essentialism</a>
+    <a class="list-group-item list-group-item-action" href="#list-item-4">Burlington Intranet</a>
+  </div>
+  <section>
+    <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example text-right">
+      <h4 id="list-item-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio officiis eos eveniet assumenda
+        voluptates ipsam sit sequi exercitationem praesentium repellendus.</h4>
+      <p>...</p>
+      <h4 id="list-item-2">Item 2</h4>
+      <p>...</p>
+      <h4 id="list-item-3">Item 3</h4>
+      <p>...</p>
+      <h4 id="list-item-4">Item 4</h4>
+      <p>...</p>
+    </div>
+  </section>
+  <footer></footer>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>

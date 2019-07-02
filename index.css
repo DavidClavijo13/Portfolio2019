@@ -1,0 +1,17 @@
+#list-example {
+  width: 15%;
+  position: fixed;
+}
+
+.scrollspy-example {
+  width: 100%;
+}
+
+.list-group-item.active {
+  color: black;
+  background-color: white;
+}
+
+section {
+  margin-left: 20%;
+}
