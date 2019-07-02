@@ -3,15 +3,52 @@
   position: fixed;
 }
 
-.scrollspy-example {
-  width: 100%;
+hr {
+  border-color: white;
 }
 
-.list-group-item.active {
-  color: black;
-  background-color: white;
+.jumbotron {
+  background-image: url(./images/blur-codes-coding-577585.png);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  color: white;
+  height: 20%;
 }
 
-section {
-  margin-left: 20%;
+.project-hr {
+  border-color: black;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.project-headers {
+  display: flex;
+  justify-content: center;
+}
+
+.projects-and-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.screenshot {
+  width: 30%;
+  height: auto;
+}
+
+.rolodex-title {
+  display: flex;
+  justify-content: center;
+}
+
+.app-description {
+  width: 50%;
+}
+
+.tech-used {
+  display: flex;
+  justify-content: space-around;
 }
