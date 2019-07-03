@@ -4,7 +4,9 @@
 }
 
 hr {
-  border-color: white;
+  border-color: rgb(197, 196, 196);
+  width: 90%;
+  border-width: .08rem;
 }
 
 .jumbotron {
@@ -13,15 +15,17 @@ hr {
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
   color: white;
-  height: 20%;
+  border-radius: 0;
 }
 
 .project-hr {
-  border-color: black;
-  width: 30%;
+  /* border-color: lightgray; */
+  width: 10%;
   margin: 0 auto;
   margin-top: 0;
   margin-bottom: 50px;
+  border-width: .1rem;
+
 }
 
 .project-headers {
@@ -51,4 +55,31 @@ hr {
 .tech-used {
   display: flex;
   justify-content: space-around;
+}
+
+/**************** Footer ******************/
+
+footer {
+  background-color: #0a0c0ee8;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 5%;
+  margin-top: 40px;
+}
+
+.footer-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links i {
+  font-size: 1.8rem;
+  color: white;
+}
+
+footer a {
+  font-size: 1.8rem;
+  color: white;
 }
