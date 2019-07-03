@@ -1,0 +1,85 @@
+#list-example {
+  width: 15%;
+  position: fixed;
+}
+
+hr {
+  border-color: rgb(197, 196, 196);
+  width: 90%;
+  border-width: .08rem;
+}
+
+.jumbotron {
+  background-image: url(./images/blur-codes-coding-577585.png);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  color: white;
+  border-radius: 0;
+}
+
+.project-hr {
+  /* border-color: lightgray; */
+  width: 10%;
+  margin: 0 auto;
+  margin-top: 0;
+  margin-bottom: 50px;
+  border-width: .1rem;
+
+}
+
+.project-headers {
+  display: flex;
+  justify-content: center;
+}
+
+.projects-and-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.screenshot {
+  width: 30%;
+  height: auto;
+}
+
+.rolodex-title {
+  display: flex;
+  justify-content: center;
+}
+
+.app-description {
+  width: 50%;
+}
+
+.tech-used {
+  display: flex;
+  justify-content: space-around;
+}
+
+/**************** Footer ******************/
+
+footer {
+  background-color: #0a0c0ee8;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 5%;
+  margin-top: 40px;
+}
+
+.footer-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links i {
+  font-size: 1.8rem;
+  color: white;
+}
+
+footer a {
+  font-size: 1.8rem;
+  color: white;
+}
