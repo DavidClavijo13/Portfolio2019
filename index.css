@@ -18,6 +18,10 @@ hr {
   border-radius: 0;
 }
 
+.mb-4, .my-4 {
+  margin-bottom: 3.5rem!important;
+}
+
 .project-hr {
   /* border-color: lightgray; */
   width: 10%;
@@ -26,6 +30,10 @@ hr {
   margin-bottom: 50px;
   border-width: .1rem;
 
+}
+
+.projects {
+  padding: 0 5.1%;
 }
 
 .project-headers {
@@ -38,8 +46,26 @@ hr {
   justify-content: space-around;
 }
 
+.projects-and-info a {
+  display: flex;
+  justify-content: start;
+  width: 40%;
+}
+
+.projects-and-info .bounce {
+  margin-top: 2px;
+  transition: margin 0.5s ease-out;
+}
+
+.projects-and-info .bounce:hover {
+  margin-top: 5px;  
+  filter:brightness(75%);
+  transition:.2s;
+
+}
+
 .screenshot {
-  width: 30%;
+  width: 100%;
   height: auto;
 }
 
@@ -48,13 +74,25 @@ hr {
   justify-content: center;
 }
 
-.app-description {
-  width: 50%;
+.projects-and-info .btn {
+  width: 30%;
+  display: inline;
 }
 
-.tech-used {
-  display: flex;
-  justify-content: space-around;
+.fa-lg {
+  line-height: normal;
+}
+
+.app-description {
+  width: 53%;
+}
+
+.table-dark {
+  background-color: #0a0c0ee8;
+}
+
+.table {
+  margin-bottom: 0;
 }
 
 /**************** Footer ******************/
@@ -64,7 +102,7 @@ footer {
   color: white;
   display: flex;
   justify-content: space-between;
-  padding: 20px 5%;
+  padding: 20px 7%;
   margin-top: 40px;
 }
 
@@ -75,11 +113,87 @@ footer {
 }
 
 .footer-links i {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: white;
 }
 
 footer a {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: white;
+}
+
+/**************** Media Queries ******************/
+
+@media (max-width: 1281px) {
+  .projects {
+    padding: 0 0;
+  }
+
+  .footer-links i {
+    font-size: 1.1rem;
+  }
+  
+  footer a {
+    font-size: 1.1rem;
+  }
+  
+}
+
+@media (max-width: 1000px) {
+
+  .project-hr {
+    /* border-color: lightgray; */
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-width: .1rem;
+  
+  }
+
+  .projects-and-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .app-description {
+    width: 100%;
+  }
+
+  .projects-and-info a {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .projects {
+    padding: 0 40px;
+  }
+
+  footer {
+    margin-top: 20px;
+  }
+  
+  .footer-links i {
+    font-size: 1rem;
+  }
+  
+  footer a {
+    font-size: 1rem;
+  }
+
+}
+
+@media (max-width: 800px) { 
+.projects {
+  padding: 20px;
+}
+
+  footer {
+    padding: 20px 5px;
+  }
+
+  .footer-links {
+    width: 68%;
+  }
+  
 }
