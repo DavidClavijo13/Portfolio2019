@@ -22,6 +22,12 @@ hr {
   margin-bottom: 3.5rem!important;
 }
 
+.title-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .project-hr {
   /* border-color: lightgray; */
   width: 10%;
@@ -195,5 +201,10 @@ footer a {
   .footer-links {
     width: 68%;
   }
+
+  .projects-and-info .btn {
+    width: 73%;
+    display: inline;
+}
   
 }
