@@ -3,6 +3,10 @@
   position: fixed;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 hr {
   border-color: rgb(197, 196, 196);
   width: 90%;
@@ -40,6 +44,7 @@ hr {
 
 .projects {
   padding: 0 5.1%;
+  max-width: 1680px;
 }
 
 .project-headers {
@@ -50,6 +55,7 @@ hr {
 .projects-and-info {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .projects-and-info a {
@@ -73,6 +79,7 @@ hr {
 .screenshot {
   width: 100%;
   height: auto;
+  box-shadow: -12px 18px 20px -4px #888888;
 }
 
 .rolodex-title {
@@ -87,10 +94,18 @@ hr {
 
 .fa-lg {
   line-height: normal;
+  font-size: 1.3rem;
+}
+
+.tech-used {
+  margin-bottom: 20px;
 }
 
 .app-description {
   width: 53%;
+  background: gainsboro;
+    padding: 1%;
+    border-radius: 1%;
 }
 
 .table-dark {
@@ -164,6 +179,7 @@ footer a {
 
   .app-description {
     width: 100%;
+    padding-top: 20px;
   }
 
   .projects-and-info a {
@@ -173,6 +189,11 @@ footer a {
 
   .projects {
     padding: 0 40px;
+  }
+
+  .screenshot {
+    margin-bottom: 35px;
+    box-shadow: -3px 13px 20px -4px #888888;
   }
 
   footer {
@@ -190,9 +211,9 @@ footer a {
 }
 
 @media (max-width: 800px) { 
-.projects {
-  padding: 20px;
-}
+  .projects {
+   padding: 20px;
+  }
 
   footer {
     padding: 20px 5px;
@@ -205,6 +226,10 @@ footer a {
   .projects-and-info .btn {
     width: 73%;
     display: inline;
-}
+  }
+
+  .app-description h4 {
+    text-align: center;
+  }
   
 }
