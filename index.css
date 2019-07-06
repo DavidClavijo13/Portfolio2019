@@ -45,6 +45,7 @@ hr {
 .projects {
   padding: 0 5.1%;
   max-width: 1680px;
+  margin: 0 auto;
 }
 
 .project-headers {
